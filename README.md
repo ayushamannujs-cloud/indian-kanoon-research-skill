@@ -87,12 +87,6 @@ All scripts require `IK_TOKEN` in env and fail loudly if it's missing.
 
 Read `references/query-patterns.md` if you want to understand the query logic or adapt it for a different research tool.
 
-## Honest limitations
-
-- Requires an Indian Kanoon API token — not usable without one.
-- Quality depends on the anchor cases identified in Step 3. If the anchor docid is wrong (e.g. a later citing case instead of the original), the citation-graph queries return noise.
-- Does not pull full judgment text automatically — you have to request it. This is intentional (files are large) but means the skill cannot quote specific paragraphs without a second step.
-- The skill is as good as the angle decomposition in Step 2. Shallow decomposition → shallow results.
 
 ## Feedback and collaboration
 
